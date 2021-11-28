@@ -1,0 +1,32 @@
+.system-box h3 {
+    color: #000;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.system-box h4 {
+    font-size: 12pt;
+    color: #000;
+    margin: 0px;
+    padding: 8px 0px;
+}
+
+.system-box {
+    background-color: #eee;
+    border-radius: 2px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.system-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.system-box ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}

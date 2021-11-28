@@ -1,0 +1,105 @@
+{
+    "entities": [
+        {
+            "id": 2,
+            "name": "David",
+            "objectType": "Person",
+            "email": "david@example.com"
+        },
+        {
+            "id": 5,
+            "name": "HR Payroll",
+            "objectType": "System"
+        },
+        {
+            "id": 3,
+            "name": "Julie",
+            "objectType": "Person",
+            "email": "julie@example.com"
+        },
+        {
+            "id": 1,
+            "name": "Bill",
+            "objectType": "Person",
+            "email": "bill@example.com"
+        },
+        {
+            "id": 4,
+            "name": "Student Grades",
+            "objectType": "System"
+        },
+        {
+            "id": 6,
+            "name": "Finance",
+            "objectType": "System"
+        },
+        {
+            "id": 7,
+            "name": "Finance",
+            "objectType": "Department",
+            "email": "finance@example.com"
+        },
+        {
+            "id": 8,
+            "name": "Pottery",
+            "objectType": "Department",
+            "email": "pottery@example.com"
+        }
+    ],
+    "relationships": [
+        {
+            "id": 20,
+            "objectType": "belongs_to",
+            "start": 4,
+            "end": 8
+        },
+        {
+            "id": 21,
+            "objectType": "belongs_to",
+            "start": 5,
+            "end": 8
+        },
+        {
+            "id": 22,
+            "objectType": "belongs_to",
+            "start": 6,
+            "end": 8
+        },
+        {
+            "id": 23,
+            "objectType": "owns",
+            "start": 3,
+            "end": 4
+        },
+        {
+            "id": 24,
+            "objectType": "owns",
+            "start": 3,
+            "end": 5
+        },
+        {
+            "id": 25,
+            "objectType": "owns",
+            "start": 1,
+            "end": 6
+        },
+        {
+            "id": 26,
+            "objectType": "develops",
+            "start": 2,
+            "end": 6
+        },
+        {
+            "id": 27,
+            "objectType": "develops",
+            "start": 1,
+            "end": 6
+        },
+        {
+            "id": 28,
+            "objectType": "develops",
+            "start": 3,
+            "end": 4
+        }
+    ]
+}

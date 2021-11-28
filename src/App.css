@@ -1,0 +1,27 @@
+.dashboard-header {
+    background-color: #444455;
+}
+
+.dashboard-header h1 {
+    margin: 0px;
+    padding: 14px;
+    color: #dd9922;
+    font-weight: normal;
+}
+
+.dashboard-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.dashboard-sidebar {
+    display: block;
+    text-align: center;
+  }
+
+h2 {
+    margin: 0px;
+    font-weight: normal;
+  }
